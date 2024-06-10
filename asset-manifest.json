@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/search-crypto-test/static/css/main.2650c843.css",
+    "main.js": "/search-crypto-test/static/js/main.8c1bcd89.js",
+    "static/js/453.ed3810f9.chunk.js": "/search-crypto-test/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/search-crypto-test/index.html",
+    "static/media/star-empty.svg": "/search-crypto-test/static/media/star-empty.4cff40a76ae26a5e4f22de3ff40e6bee.svg",
+    "static/media/search-icon.svg": "/search-crypto-test/static/media/search-icon.9e2f083091dab6cba433d56ec4ed9877.svg",
+    "static/media/close-icon.svg": "/search-crypto-test/static/media/close-icon.2103f0517e11e3b708e6fe1ee2ad665c.svg",
+    "static/media/star-full.svg": "/search-crypto-test/static/media/star-full.6cb20f866ab8c9a0266a5c4afac5e750.svg",
+    "main.2650c843.css.map": "/search-crypto-test/static/css/main.2650c843.css.map",
+    "main.8c1bcd89.js.map": "/search-crypto-test/static/js/main.8c1bcd89.js.map",
+    "453.ed3810f9.chunk.js.map": "/search-crypto-test/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2650c843.css",
+    "static/js/main.8c1bcd89.js"
+  ]
+}
