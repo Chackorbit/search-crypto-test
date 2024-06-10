@@ -1,0 +1,169 @@
+/* General Styles */
+.button {
+  padding: 8px;
+
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #d6d1d150;
+}
+
+.button:disabled,
+.button.disabled {
+  cursor: default;
+}
+
+.onFocus {
+  background: #d6d1d150;
+  border: solid 2px #cccccc50;
+}
+
+.search-icon {
+  margin-right: 5px;
+}
+
+.favorite-icon {
+  margin-right: 5px;
+}
+
+.search-container {
+  position: relative;
+  width: 300px;
+}
+
+.search-container__input {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  border: 1px solid #cccccc50;
+  border-radius: 10px;
+  z-index: 1000;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #cccccc50;
+}
+
+.search-input:focus {
+  outline: #cccccc50;
+}
+
+.search-input__icon {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+}
+
+.close-btn {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+}
+
+.close-btn:hover svg {
+  transform: scale(1.8);
+}
+
+.btn-container {
+  display: flex;
+}
+
+.list-item {
+  display: flex;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  background: #d6d3d150;
+  border-radius: 10px;
+}
+
+.favBtn {
+  color: inherit;
+}
+
+
+
+/* Dark Theme */
+body.dark .App-header {
+  background: #1e1e1e;
+  color: #cccccc;
+}
+
+body.dark .button {
+  color: #cccccc;
+}
+
+body.dark .button:disabled,
+body.dark .button.disabled {
+  color: #ffffff;
+}
+
+body.dark .dropdown {
+  color: #cccccc;
+}
+
+body.dark .search-input {
+  color: #cccccc;
+}
+
+body.dark .close-btn {
+  color: #cccccc;
+}
+
+body.dark .list-item {
+  color: #cccccc;
+}
+
+/* Light Theme */
+body.light .App-header {
+  background: #ffffff;
+  color: #000000;
+}
+
+body.light .button {
+  color: #000000;
+}
+
+body.light .button:disabled,
+body.light .button.disabled {
+  color: #000000;
+}
+
+body.light .dropdown {
+  color: #000000;
+}
+
+body.light .search-input {
+  color: #000000;
+}
+
+body.light .close-btn {
+  color: #000000;
+}
+
+body.light .list-item {
+  color: #000000;
+}
+
+.list-item .favBtn:hover {
+  color: #e8830f;
+}
