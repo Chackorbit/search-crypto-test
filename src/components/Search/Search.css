@@ -46,7 +46,7 @@
   border: 1px solid #cccccc50;
   border-radius: 10px;
   z-index: 1000;
-  max-height: 300px;
+  max-height: 350px;
   overflow: hidden;
 }
 
@@ -82,6 +82,7 @@
 
 .btn-container {
   display: flex;
+  font-size: 22px;
 }
 
 .list-item {
@@ -89,6 +90,7 @@
   text-align: center;
   padding: 5px;
   cursor: pointer;
+  font-size: 20px;
 }
 
 .list-item:hover {
